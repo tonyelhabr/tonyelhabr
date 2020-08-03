@@ -1,13 +1,13 @@
-My name is Tony. Here are highlights of my recent work.
+My name is Tony. Here are highlights of my recent work. (Thanks to [Zhi](https://twitter.com/zhiiiyang) for the template.)
 
-- :basektball: :soccer-ball: :american-football: Some sports viz [OTworkout](https://github.com/TonyElHabr/sports_viz) to track your workout from GitHub.
-- :writing-hand: [Blog post comparing variable importance methodologies for machine learning.](https://tonyelhabr.rbind.io/post/variable-importance-compare/)
-- :bar_chart: [Galley of visualizations](https://tonyelhabr.rbind.io/project/blog-gallery/) on my blog.
-- :point_down: Below is my lastest #rstats tweet deployed on [GitHub actions](https://github.com/TonyElHabr/zhiiiyang). (Thanks to [Zhi](https://twitter.com/zhiiiyang) for the template.)
+- :basketball: :soccer: :football: [Some sports viz.](https://github.com/tonyelhabr/sports_viz)
+- :pencil2: [Blog post comparing variable importance methodologies for machine learning.](https://tonyelhabr.rbind.io/post/variable-importance-compare/)
+- :chart_with_upwards_trend: [Galley of visualizations](https://tonyelhabr.rbind.io/project/blog-gallery/) on my blog.
+- :point_down: Below is my latest #rstats tweet.
 
 <div align="middle">
  
-<img src="https://github.com/tonyelhabr/zhiiiyang/blob/master/tweet.png" width="600">
+<img src="https://github.com/tonyelhabr/tonyelhabr/blob/master/tweet.png" width="600">
 
 [Twitter][twitter] :speech_balloon:&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;[Website][website] :link: | &nbsp;&nbsp;&nbsp;[LinkedIn][linkedin] :necktie:&nbsp;&nbsp;&nbsp;
 
