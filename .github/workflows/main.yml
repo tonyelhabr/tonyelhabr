@@ -5,8 +5,6 @@
 #     - cron:  '* * 7 * *'
 
 # Resource: https://dev.to/s_abderemane/manual-trigger-with-github-actions-279e
-name: Test
-
 on:
   watch:
     types: [started]
