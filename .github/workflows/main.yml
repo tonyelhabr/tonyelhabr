@@ -1,13 +1,16 @@
-# on:
-#   push:
-#     branches: [ master ]
-#   schedule:
-#     - cron:  '* * 7 * *'
 
 # Resource: https://dev.to/s_abderemane/manual-trigger-with-github-actions-279e
 on:
+  push:
+    branches: [ master ]
+  schedule:
+    - cron:  '* * 1 * *' # once a day
+  
+  # Manual runs on stars
   watch:
     types: [started]
+
+
     
 name: pull-latest-tweets
 
@@ -15,7 +18,7 @@ jobs:
   build:
     runs-on: macOS-latest
     
-    if: github.actor == github.event.repository.owner.login
+    if: github.actor == github.event.repository.owner.login # Only when I star
     
     steps:
       - uses: actions/checkout@v2
