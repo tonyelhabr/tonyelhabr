@@ -1,9 +1,9 @@
 My name is Tony. Here are highlights of my recent work. (Thanks to [Zhi](https://twitter.com/zhiiiyang) for the template.)
 
-- :basketball: :soccer: :football: [Some sports viz.](https://github.com/tonyelhabr/sports_viz)
-- :pencil2: [Blog post comparing variable importance methodologies for machine learning.](https://tonyelhabr.rbind.io/post/variable-importance-compare/)
-- :chart_with_upwards_trend: [Galley of visualizations](https://tonyelhabr.rbind.io/project/blog-gallery/) on my blog.
-- :point_down: Below is my latest #rstats tweet.
+- :basketball: :soccer: :football: [Some sportsball viz](https://github.com/tonyelhabr/sports_viz)
+- :pencil2: [Blog post comparing variable importance methodologies for machine learning](https://tonyelhabr.rbind.io/post/variable-importance-compare/)
+- :pencil: [RMarkdown cheatsheet template](https://github.com/tonyelhabr/cheat-sheet-rmarkdown/)
+- :point_down: Latest #rstats tweet.
 
 <div align="middle">
  
