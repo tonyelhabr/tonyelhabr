@@ -21,8 +21,8 @@ jobs:
           user: tonyelhabr
           template: classic
           base: header, activity, community, repositories, metadata
-          # config_animations: yes
-          # config_timezone: America/Chicago
+          config_animations: yes
+          config_timezone: America/Chicago
           # plugin_languages: yes
           # plugin_languages_ignored: html, css, tex
           # plugin_habits: yes
