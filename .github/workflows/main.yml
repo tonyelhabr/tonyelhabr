@@ -19,7 +19,7 @@ jobs:
 
           # Options
           user: tonyelhabr
-          template: repository
+          template: classic
           base: header, activity, community, repositories, metadata
           config_animations: yes
           config_timezone: America/Chicago
