@@ -1,43 +1,33 @@
-
-# Resource: https://dev.to/s_abderemane/manual-trigger-with-github-actions-279e
+# Reference: https://github.com/gadenbuie/gadenbuie/blob/main/.github/workflows/main.yml
+name: Metrics
 on:
-  push:
-    branches: [ master ]
-  schedule:
-    - cron:  '* * 1 * *' # once a day
-  
-  # Manual runs on stars
-  watch:
-    types: [started]
-
-
-    
-name: pull-latest-tweets
-
+  # Schedule updates
+  schedule: [{cron: "0 * * * *"}]
+  # Lines below let you run workflow manually and on each commit
+  push: {branches: ["master", "main"]}
+  workflow_dispatch:
 jobs:
-  build:
-    runs-on: macOS-latest
-    
-    if: github.actor == github.event.repository.owner.login # Only when I star
-    
+  github-metrics:
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: r-lib/actions/setup-r@v1
-      - name: Install package dependencies
-        run: |-
-          Rscript -e "install.packages('remotes')"
-          Rscript -e "remotes::install_github('gadenbuie/tweetrmd')"
-          Rscript -e "remotes::install_github('rstudio/webshot2')"
-          Rscript -e "install.packages('rtweet')"
-      - name: Run script
-        env:
-          ACCESS_SECRET: ${{ secrets.ACCESS_SECRET }}
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
-          CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
-        run: |-
-          Rscript -e "source('script.R')"
-      - name: Commit results
-        run: |
-          git commit -m "Update the latest tweet" -a || echo "No changes to commit"
-          git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:${{ github.ref }} || echo "No changes to commit"
+      - uses: lowlighter/metrics@latest
+        with:
+          # Your GitHub token
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: tonyelhabr
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_animations: yes
+          config_timezone: America/Chicago
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
+          plugin_languages_skipped: gadenbuie, garrickadenbuie-com, covid19-florida-ahca
+          plugin_habits: yes
+          plugin_habits_from: 250
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
