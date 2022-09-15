@@ -289,7 +289,7 @@
                 </h2>
                 <div class="row">
                     <ul class="facts">
-                        <li>Mostly pushes code around 13:00</li>
+                        <li>Mostly pushes code around 14:00</li>
                         <li>Mostly active on Monday</li>
                     </ul>
                 </div>
@@ -339,8 +339,8 @@
                             07
                         </div>
                         <div class="entry">
-                            <span class="value">3</span>
-                            <div class="bar" style="height: 15px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <span class="value">4</span>
+                            <div class="bar" style="height: 20px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             08
                         </div>
                         <div class="entry">
@@ -364,8 +364,8 @@
                             12
                         </div>
                         <div class="entry">
-                            <span class="value">10</span>
-                            <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                            <span class="value">9</span>
+                            <div class="bar" style="height: 45px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                             13
                         </div>
                         <div class="entry">
@@ -465,7 +465,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 15 Sept 2022, 08:43:41 (timezone America/Chicago) with lowlighter/metrics@3.29.0-beta</span>
+                <span>Last updated 15 Sept 2022, 09:20:38 (timezone America/Chicago) with lowlighter/metrics@3.29.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
