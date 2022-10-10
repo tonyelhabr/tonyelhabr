@@ -4,4 +4,4 @@
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=tonyelhabr&theme=github)
 
-![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tonyelhabr&theme=github&utcOffset=8) 
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tonyelhabr&theme=github&utcOffset=-6) 
