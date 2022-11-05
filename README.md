@@ -15,8 +15,6 @@
 
 For more about what I've worked on and my background, check out [my blog](https://tonyelhabr.rbind.io).
 
-## Public GitHub metrics
-
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tonyelhabr&theme=github)
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=tonyelhabr&theme=github)
