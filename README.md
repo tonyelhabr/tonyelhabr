@@ -8,9 +8,12 @@
 
 ## Packages
 
--   I co-maintain [`{worldfootballR}`](https://github.com/JaseZiv/worldfootballR), an R package for extracting world football (soccer) data from several sites. I work mostly with the [Fotmob](https://www.fotmob.com/) functions.
--   I wrote [`{valorantr}`](https://github.com/tonyelhabr/valorantr), an R package for pro Valorant data from [rib.gg](https://rib.gg/).
--   I contributed functions for scraping data from [ESPN](https://www.espn.com/) to [`{ffscrapr}`](https://github.com/ffverse/ffscrapr/), an R API client for several fantasy football league platforms.
+-   I co-maintain [`{worldfootballR}`](https://github.com/JaseZiv/worldfootballR), an R package for extracting world football (soccer) data from several sites.
+-   I wrote [`{fotmob}`](https://github.com/tonyelhabr/fotmob), an R package for retrieving soccer data from [Fotmob](https://www.fotmob.com/).
+-   I wrote [`{valorantr}`](https://github.com/tonyelhabr/valorantr), an R package for retrieving pro Valorant data from [rib.gg](https://rib.gg/).
+-   I have contributed to [`{ffscrapr}`](https://github.com/ffverse/ffscrapr/), an R API client for several fantasy football league platforms.
+
+I'm currently working on making an unofficial API for [GeeksWhoDrink](https://github.com/tonyelhabr/gwd), using python.
 
 ## More
 
