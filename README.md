@@ -1,4 +1,4 @@
-👋 Hi, I'm Tony. I'm a data scientist who writes R code on the job and as a hobby.
+👋 Hi, I'm Tony. I'm a data person who writes R code as a hobby. My specialty is applications of statistics in sports, mostly soccer.
 
 ## Projects
 
