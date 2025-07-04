@@ -5,6 +5,7 @@
 -   [Sports analytics visualization gallery](https://github.com/tonyelhabr/sports_viz): A collection of visualizations (mostly soccer) that I've tweeted out.
 -   ["Bundesliga tax" analysis](https://twitter.com/TonyElHabr/status/1405946563260817412) cited in [The Athletic](https://theathletic.com/3307533/2022/05/16/a-case-against-erling-haalands-move-to-manchester-city/), [Tifo Football](https://www.youtube.com/watch?v=07gDK0_Ea1U), [ESPN](https://www.espn.com/sports/insider/soccer/insider/story/_/id/34373375/bayern-munich-bundesliga-does-german-soccer-weirdness-hurt-dominant-team), [Grace Robertson](https://onfootball.substack.com/p/is-the-bundesliga-tax-real), and more.
 -   [2021 Big Data Bowl (Big Data Bowl)](https://operations.nfl.com/gameday/analytics/big-data-bowl/) team submission ([finalist](https://www.youtube.com/watch?v=l-O24EqD4YI)) \| ["Weighted Assessment of Defender Affectiveness (WADE)"](https://www.kaggle.com/asmaetoumi/weighted-assessment-of-defender-effectiveness): A framework for quantifying NFL defensive back coverage and contest skills.
+-   [2022 Carnegie Melon Sports Analytics Conference (CMSAC)](https://www.stat.cmu.edu/cmsac/conference/2022/) paper: [*"The Hot Hand Fallacy in Call of Duty Search and Destroy"*](https://github.com/tonyelhabr/cod_snd/blob/master/paper/paper.pdf)
 
 ## Packages
 
