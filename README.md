@@ -12,15 +12,13 @@ I've (intentionally) been fairly inactive in open-source contributions since ear
 ## Packages
 
 -   I co-maintain [`{worldfootballR}`](https://github.com/JaseZiv/worldfootballR), an R package for extracting world football (soccer) data from several sites.
--   I wrote [`{fotmob}`](https://github.com/tonyelhabr/fotmob), an R package for retrieving soccer data from [Fotmob](https://www.fotmob.com/).
+-   I wrote [`{foobar}`](https://github.com/tonyelhabr/foobar), an R package for retrieving soccer data from [Fotmob](https://www.fotmob.com/).
 -   I wrote [`{valorantr}`](https://github.com/tonyelhabr/valorantr), an R package for retrieving pro Valorant data from [rib.gg](https://rib.gg/).
 -   I have contributed to [`{ffscrapr}`](https://github.com/ffverse/ffscrapr/), an R API client for several fantasy football league platforms.
 
-I'm currently working on making an unofficial API for [GeeksWhoDrink](https://github.com/tonyelhabr/gwd), using python.
-
 ## More
 
-For more about what I've worked on and my background, check out [my blog](https://tonyelhabr.rbind.io).
+For more about what I've worked on and my background, check out [my personal blog](https://tonyelhabr.rbind.io), or my [power systems-focused blog](https://tonyelhabr.github.io/openpowersys/).
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tonyelhabr&theme=github)
 
