@@ -1,4 +1,6 @@
-👋 Hi, I'm Tony. I'm a data person who writes R code as a hobby. My specialty is applications of statistics in sports, mostly soccer.
+👋 Hi, I'm Tony. I'm a data person who writes R and python code as a hobby. My specialty is applications of statistics in sports, mostly soccer.
+
+I've (intentionally) been fairly inactive in open-source contributions since early 2024--I hope that doesn't sway you from reaching out if you have any questions about my work or want to connect.
 
 ## Projects
 
